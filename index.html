@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="assets/images/logoheader.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"><img src="assets/images/headerbutton.png" alt=""></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/images/logoheader.png" alt=""></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center align-items-center  flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link " href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Help</a>
+              </li>
+              <li class="nav-item mt-1">
+                <button class="HeaderButton" type="submit">Try now</button>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Sales</a>
+              </li>
+              <li class="nav-item mt-2">
+                <a class="nav-link-slast" href="#"><img src="assets/images/Search.png" alt=""></a>
+              </li>
+              <li class="nav-item">
+                <div>
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img style="height: 13px; width: 13px; margin-right: 10px;" src="assets/images/iconheader.png"
+                        alt="">Amount
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Login</a></li>
+                      <li><a class="dropdown-item" href="#">LogOut</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="CreatePlan">
+    <div class="container">
+      <div class="row ">
+        <div class="columnContent col-lg-5">
+          <h1>Create Financial plan that fits your lifestyle<span></span></h1>
+          <p style="margin-top: 30px;" class="fs18">Get your money moving internationally. Save up to 5x when you send
+            with Wise</p>
+          <div class="row">
+            <div class="columnCont col-lg-6 ">
+              <p>Start work efficiently with Polka today for free!</p>
+            </div>
+            <div class="columnImg col-lg-6">
+              <button class="SignUp">Sign up–it’s free</button>
+            </div>
+          </div>
+        </div>
+        <div class="columnImage  col-lg-7">
+          <div class="Banks">
+            <div class="head">
+              <div>
+                <h4>Select bank</h4>
+              </div>
+              <div>
+                <h4>Add new bank</h4>
+              </div>
+            </div>
+            <div class="Banks-list">
+              <div class="bank-item">
+                <div class="bank-logo"><img src="assets/images/card1img1.png" alt="">
+                  <div class="bank-details">
+                    <span class="bank-name">ESTERN BANK LTD</span>
+                    <span class="branch">Upashahar Branch</span>
+                  </div>
+                </div>
+                <input type="radio" name="bank" value="eastern" style="margin-left: 227px;">
+              </div>
+              <div class="bank-item active">
+                <div class="bank-logo"><img src="assets/images/card1img2.png" alt="">
+                  <div class="bank-details">
+                    <span class="bank-name">BANK OF NOVA SCOTIA</span>
+                    <span class="branch">Ontario Branch</span>
+                  </div>
+                </div>
+                <input class="radio" type="radio" name="bank" value="eastern" style="margin-left: 200px;">
+              </div>
+              <div class="bank-item">
+                <div style="margin-left: 80px;" class="bank-details">
+                  <span class="bank-name">AB BANK LTD</span>
+                  <span class="branch">Upashahar Branch</span>
+                </div>
+                <input type="radio" name="bank" value="eastern" style="margin-right: 10px;">
+              </div>
+            </div>
+            <button class="Withdraw">Withdraw</button>
+            <div class="UpcomingTransaction">
+              <div class="bg"><img class="frontimg" src="assets/images/msg1.png" alt=""></div>
+              <div class="bar">
+                <h3 style="margin-bottom: 0;" class="fs18">Upcoming Transactins</h3>
+                <div class="progress-bar">
+                  <div class="progress-fill"></div>
+                </div>
+              </div>
+            </div>
+            <div class="NewUsers">
+              <img src="assets/images/msg2pic1.png" alt="">
+              <div class="info">
+                <div class="info-item">
+                  <div class="dot blue-dot"></div>
+                  <div class="detail">
+                    <div class="balance-amount">1.048+</div>
+                    <div class="info-text">Balance</div>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <div class="dot grey-dot"></div>
+                  <div class="detail">
+                    <div class="balance-amount">980+</div>
+                    <div class="info-text">New Users</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="BalanceWithdraw">
+              <div class="Withdrawbal">
+                <div class="text1">Balance</div>
+                <div class="text2">Withdraw</div>
+              </div>
+              <div class="cash">$5,382.36<span>USD</span></div>
+              <div class="Wallet">
+                <p>Wallet ID: 24579485</p>
+                <img src="assets/images/msg3img3.png" alt="">
+              </div>
+              <img class="vector" src="assets/images/Vector.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="AfterPay">
+    <div class="container">
+      <div class="row">
+        <div class="columnImg col-lg-3 col-md-3 col-sm-2 ">
+          <img src="assets/images/Girl.png" alt="">
+        </div>
+        <div class="columnContent col-lg-8  col-md-8 col-sm-7">
+          <div class="Content-box">
+            <h6>Get your money moving internationally. Save up to 5x when you send with Wise</h6>
+            <p>Trusted by top-ties creative company</p>
+            <ul class="logogroup">
+              <li><img src="assets/images/afterpay.png" alt=""></li>
+              <li><img src="assets/images/airwallex.png" alt=""></li>
+              <li><img src="assets/images/amplitude.png" alt=""></li>
+              <li><img src="assets/images/asana.png" alt=""></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="OnePlatform">
+    <div class="container">
+      <div class="row">
+        <div class="columnContent col-lg-6">
+          <h1 class="fs55">one platform for any business<span></span></h1>
+          <div class="accordion">
+            <div class="accordion-item">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                dui consequat a pellentesque?
+              </button>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p class="fs16">aliquam morbi neque sed congue cras gravida consequat. In turpis commodo, scelerisque
+                    proin arcu
+                    amet sed molestie.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  dui consequat a pellentesque?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  dui consequat a pellentesque?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="columnImg col-lg-6">
+          <div class="Pink-Background">
+            <div class="Card5">
+              <div class="header">
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="assets/images/humburger.png" alt="">
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Option 1</a></li>
+                    <li><a class="dropdown-item" href="#">Option 2</a></li>
+                    <li><a class="dropdown-item" href="#">Option 3</a></li>
+                  </ul>
+                </div>
+                <ul class="ThreeButtons">
+                  <li>
+                    <div class="dropdown">
+                      <button class="btn dropdown-toggle  border" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        English
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Option 1</a></li>
+                        <li><a class="dropdown-item" href="#">Option 2</a></li>
+                        <li><a class="dropdown-item" href="#">Option 3</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><img src="assets/images/bellpic.png" alt=""></li>
+                  <li><img class="profile" src="assets/images/profilepic.png" alt=""></li>
+                </ul>
+              </div>
+              <div class="msg1">
+                <p>Balance</p>
+                <div class="flex">
+                  <div>
+                    <h4>$5,382.36<span>USD</span></h4>
+                  </div>
+                  <div>
+                    <p>Withdraw</p>
+                  </div>
+                </div>
+              </div>
+              <div class="QuickTransfer">
+                <h6>Quick Transfer</h6>
+                <div class="transfer-scroll">
+                  <div class="transfer-list">
+                    <div class="transfer-item">
+                      <div class="GreenCircle">+</div>
+                      <p>Transfer</p>
+                      <span>Manual</span>
+                    </div>
+                    <div class="transfer-item">
+                      <img src="assets/images/QTEllipse1.png" alt="Jack">
+                      <p>Jack</p>
+                      <span>25012487</span>
+                    </div>
+                    <div class="transfer-item">
+                      <img src="assets/images/QTEllipse2.png" alt="Rose">
+                      <p>Rose</p>
+                      <span>20124857</span>
+                    </div>
+                    <div class="transfer-item">
+                      <img src="assets/images/QTEllipse3.png" alt="Peter">
+                      <p>Peter</p>
+                      <span>20124587</span>
+                    </div>
+                    <div class="transfer-item">
+                      <img src="assets/images/lastpic.png" alt="Methew">
+                      <p>Mehtew</p>
+                      <span>20124858</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="Deposite">
+                <h6>Deposite</h6>
+                <div class="scroll-box">
+                  <div class="Deposite-list">
+                    <div class="Deposite-item">
+                      <div class="GreenCircle">+</div>
+                    </div>
+                    <div class="Deposite-item">
+                      <img src="assets/images/Dt1.png" class="card-img-top" alt="...">
+                      <div class="DepositeNo">AC: ****6968</div>
+                      <div class="DepositeDate">EX : 5/9/28</div>
+                    </div>
+                    <div class="Deposite-item">
+                      <img src="assets/images/Dt2.png" class="card-img-top" alt="...">
+                      <div class="DepositeNo">AC: ****2417</div>
+                      <div class="DepositeDate">EX : 3/7/22</div>
+                    </div>
+                    <div class="Deposite-item">
+                      <img src="assets/images/Dt2.png" class="card-img-top" alt="...">
+                      <div class="DepositeNo">AC: ****5421</div>
+                      <div class="DepositeDate">EX : 3/9/22</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="RecentTransaction">
+    <div class="container">
+      <div class="row">
+        <div class="columnImage col-lg-6">
+          <div class="Card-green">
+            <header>
+              <p>Recent Transactions</p>
+              <p>View All</p>
+            </header>
+            <div class="Sub-heading">
+              <p>Photos</p>
+              <p>Name/Business</p>
+              <p>Date</p>
+              <p>Status</p>
+            </div>
+            <div class="QuickTransfer hide">
+              <h6>Quick Transfer</h6>
+              <div class="card-group">
+                <div class="card">
+                  <img src="assets/images/greenEclipse.png" class="card-img-top1" alt="...">
+                  <img class="overlay" src="assets/images/plus.png" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Transfer</h5>
+                    <p class="card-text">Manual</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="assets/images/QTEllipse1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Jack</h5>
+                    <p class="card-text">25012487</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="assets/images/QTEllipse2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Rose</h5>
+                    <p class="card-text">20124857</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="assets/images/QTEllipse3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Peter</h5>
+                    <p class="card-text">20124587</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="assets/images/lastpic.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Mehtew</h5>
+                    <p class="card-text">20124857</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="chat1">
+              <img class="img1" src="assets/images/RTimg1.png" alt="">
+               <h5 class="Main">William Mardoch</h5>
+              <p class="sub-line">ID: 25014287</p>
+              <p class="date">Mar 10, 2020</p>
+              <p class="type" style="color: #A3E47E;">Payment</p>
+            </div>
+            <div class="chat2">
+              <img class="img1" src="assets/images/RTimg2.png" alt="">
+               <h5 class="Main">Jack Dawson</h5>
+              <p class="sub-line">ID: 22154879</p>
+              <p class="date">Mar 10, 2020</p>
+              <p class="type" style="color: #A3E47E;">Payment</p>
+            </div>
+            <div class="chat3">
+              <img class="img1" src="assets/images/RTimg3.png" alt="">
+              <h5 class="Main">Mailchimp</h5>
+              <p class="sub-line">Subscription service</p>
+              <p class="date">Mar 09, 2020</p>
+              <p class="type" style="color: #FF9D33;">Payment</p>
+            </div>
+            <div class="chat4 ">
+              <img class="img1" src="assets/images/RTimg4.png" alt="">
+              <h5 class="Main">Fiverr.inc</h5>
+              <p class="sub-line">Marketplace payment</p>
+              <p class="date">Mar 02, 2020</p>
+              <p class="type" style="color: #A3E47E;">Receive</p>
+            </div>
+          </div>
+        </div>
+        <div class="columnContent col-lg-5 ms-5 my-5">
+          <div class="container-fluid">
+            <h1 class="fs55">Meet money without borders<span></span></h1>
+            <p class="fs18">make online payments and keep track of all your transactions.</p>
+            <ul>
+              <li>Velit egestas dui consequat a pellentesque.</li>
+              <li>Velit egestas dui consequat a pellentesque.</li>
+              <li>Velit egestas dui consequat a pellentesque.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="SpecialFeatures">
+    <div class="container">
+      <div class="row row1">
+        <h1 style="text-align: center;" class="fs55">Our Special Features</h1>
+        <div class="column1 col-lg-6 ">
+          <h2 class="fs36">List Task Today</h2>
+          <p class="fs17">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore</p>
+          <div class="Card-Background1">
+            <div class="Card1">
+              <h3 class="fs20">Recent Transaction</h3>
+              <div class="chats">
+                <div class="bgpic1"><img src="assets/images/apple.png" alt=""></div>
+                <h6 class="fs14">Apple Store</h6>
+                <img class="Bar" src="assets/images/pinkBar.png" alt="">
+                <p class="cal">26 March, 2021</p>
+                <p class="amount">$450.90</p>
+              </div>
+              <div class="chats">
+                <div class="bgpic2"><img src="assets/images/ui8.png" alt=""></div>
+                <h6 class="fs14">UI8 Store</h6>
+                <img class="Bar" src="assets/images/GreenBar.png" alt="">
+                <p class="cal">25 March, 2021</p>
+                <p class="amount">$200.10</p>
+              </div>
+              <div class="chats">
+                <div class="bgpic3"><img src="assets/images/spotify.png" alt=""></div>
+                <h6 class="fs14">Spotify</h6><img class="Bar" src="assets/images/greyBar.png" alt="">
+                <p class="cal">24 March, 2021</p>
+                <p class="amount">$184.30</p>
+              </div>
+              <div class="chats ">
+                <div class="bgpic4"><img src="assets/images/python.png" alt=""> </div>
+                <h6 class="fs14">Python</h6><img class="Bar" src="assets/images/lightgreyBar.png" alt="">
+                <p class="cal">23 March, 2021</p>
+                <p class="amount">$90.20</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column2 col-lg-6 ">
+          <h2 class="fs36">Choose Date</h2>
+          <p class="fs17">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore</p>
+          <div class="Card-Background2">
+            <div class="card2">
+              <h3 class="fs20">Diagram Activity</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row2">
+        <div class="column1 col-lg-6 ">
+          <h2 class="fs36">Activity Graph</h2>
+          <p class="fs17">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore</p>
+          <div class="Card-Background2">
+            <div class="Card3">
+              <h3 class="fs20">Updated Payment</h3>
+              <div class="row firstrow">
+                <div class="column3 col-lg-5">
+                  <div class="CardHeader">
+                    <div class="circle"><img class="OL" src="assets/images/apple.png" alt=""></div>
+                    <span class="title">Apple Pay</span>
+                    <span class="change">+1.5%</span>
+                  </div>
+                  <div class="card-footer">
+                    <span class="price">$140.98</span>
+                    <span class="time">7d ago</span>
+                  </div>
+                </div>
+                <div class="column4 col-lg-5">
+                  <div class="CardHeader">
+                    <div class="circle"><img class="OL" src="assets/images/ui8.png" alt=""></div>
+                    <span class="title">UI8 Store</span>
+                    <span style="color:#DFAFBF;" class="change">+2.6%</span>
+                  </div>
+                  <div class="card-footer">
+                    <span class="price">$120.60</span>
+                    <span class="time">8d ago</span>
+                  </div>
+                </div>
+              </div>
+              <div class="row Secondrow">
+                <div class="column5 col-lg-5">
+                  <div class="CardHeader">
+                    <div class="circle"> <img class="OL" src="assets/images/spotify.png" alt=""></div>
+                    <span class="title">Spotify</span>
+                    <span class="change">-0.8%</span>
+                  </div>
+                  <div class="card-footer">
+                    <span class="price">$65.40</span>
+                    <span class="time">8d ago</span>
+                  </div>
+                </div>
+                <div class="column6 col-lg-5">
+                  <div class="CardHeader">
+                    <div class="circle"><img class="OL" src="assets/images/python.png" alt=""></div>
+                    <span class="title">Python</span>
+                    <span style="color:#DFAFBF;" class="change">-0.5%</span>
+                  </div>
+                  <div class="card-footer">
+                    <span class="price">$90.85</span>
+                    <span class="time">9d ago</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column2 col-lg-6 ">
+          <h2 class="fs36">Graphic Task</h2>
+          <p class="fs17">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore</p>
+          <div class="Card-Background1">
+            <div class="Card4">
+              <h3 class="fs20">Daily Percentage</h3>
+              <div class="percent1">
+                <div class="circle green">
+                  <div class="inner">78%</div>
+                </div>
+                <div>
+                  <p class="p11">Lorem ipsum dolores sit</p>
+                  <p class="p12">08:30 - 09:00<span class="dot"></span> <span class="name">Edward Johnson</span></p>
+                </div>
+                <div><img class="img12" src="assets/images/dotsthree.png" alt=""></div>
+              </div>
+              <div class="percent2">
+                <div class="circle orange">
+                  <div class="inner">65%</div>
+                </div>
+                <div>
+                  <p class="p11">Lorem ipsum dolores sit</p>
+                  <p class="p12">07:40 - 08:00<span class="dot"></span> <span class="name">Michael Andraes</span></p>
+                </div>
+                <div><img class="img12" src="assets/images/dotsthree.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Paymee">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <h1 class="fs55">WHY OUR CUSTOMERS LOVE Paymee<span></span></h1>
+        </div>
+        <div class="col-lg-4">
+          <button class="read">Read customer Stories</button>
+        </div>
+      </div>
+
+      <div class="testimonial-container">
+        <div class="testimonial-box">
+          <div class="user-info">
+            <img img src="assets/images/avatar5.png" alt="user">
+            <div>
+              <span>Ussama Azam</span>
+              <span class="title">Director, Company.io</span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="quote">❝</div>
+            <div class="testimonial-text">[testimonial goes here] Lorem ipsum is a placeholder text to demonstrate the
+              visual form of a typeface.
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-box">
+          <div class="box">
+            <div class="quote">❝</div>
+            <div class="testimonial-text">[testimonial goes here] Lorem ipsum is a placeholder text to demonstrate the
+              visual form of a typeface.
+            </div>
+          </div>
+          <div class="user-info">
+            <img src="assets/images/avatar1.png" alt="user">
+            <div>
+              <span>Bruce Mars</span>
+              <span class="title">Director, Company.io</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-box">
+          <div class="user-info">
+            <img src="assets/images/avatar2.png" alt="user">
+            <div>
+              <span>Daria Pimkina</span>
+              <span class="title">Director, Company.io</span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="quote" style="color: #FFCE99;">❝</div>
+            <div class="testimonial-text">
+              [testimonial goes here] Lorem ipsum is a placeholder text to demonstrate the visual form of a typeface.
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-box">
+          <div class="box">
+            <div class="quote" style="color:  #A3E47E;">❝</div>
+            <div class="testimonial-text">
+              [testimonial goes here] Lorem ipsum is a placeholder text to demonstrate the visual form of a typeface.
+            </div>
+          </div>
+          <div class="user-info">
+            <img src="assets/images/avatar3.png" alt="user">
+            <div>
+              <span>Andrew Power</span>
+              <span class="title">Director, Company.io</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-box">
+          <div class="user-info">
+            <img src="assets/images/avatar4.png" alt="user">
+            <div>
+              <span>Theresa Webb</span>
+              <span class="title">Director, Company.io</span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="quote" style="color: #FFCE99;">❝</div>
+            <div class="testimonial-text">
+              [testimonial goes here] Lorem ipsum is a placeholder text to demonstrate the visual form of a typeface.
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="pager">
+        <button class="btnblack"><img src="assets/images/Vectorblack.png" alt=""></button>
+        <button class="btnwhite"><img src="assets/images/Vectorwhite.png" alt=""></button>
+      </div>
+  </section>
+
+  <section class="GetStarted">
+    <div class="container">
+      <div class="row">
+        <div class="columnContent col-lg-6">
+          <h1>ready to get started?</h1>
+          <p>Every month, our customers trust us to move around £9 billion of their money.</p>
+          <button class="SignUp">Sign up–it’s free</button>
+        </div>
+        <div class="columnImage col-lg-6">
+          <img class="smallScreen hide" src="assets/images/widgetsm.png" alt="">
+          <img class="longScreen" src="assets/images/widgetlg.png" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="footer">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="assets/images/logoheader.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/images/logoheader.png" alt=""></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a style="font-weight: 400;" class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Integration</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div>
+        <p>All rights reserved ® uifry.com | Terms and conditions apply!</p>
+      </div>
+      <div>
+        <ul>
+          <li><img src="assets/images/facebook.png" alt=""></li>
+          <li><img src="assets/images/instagram.png" alt=""></li>
+          <li><img src="assets/images/youtube.png" alt=""></li>
+          <li><img src="assets/images/linkedin.png" alt=""></li>
+          <li><img src="assets/images/twitter.png" alt=""></li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

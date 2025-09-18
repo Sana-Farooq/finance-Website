@@ -1,4 +1,21 @@
-# finance-Website
-Author: Sana Farooq
-<br>
-This is a responsive finance-themed website built entirely using **HTML** and **CSS**, based on a design created in **Figma**. The purpose of this project is to practice and understand core frontend development concepts such as semantic HTML, layout structuring, and media queries for responsiveness.
+📊 Finance Website
+
+A clean and responsive finance website built using HTML & CSS, converted from a Figma design.
+
+✨ Features
+
+🎨 Pixel-perfect design from Figma
+
+📱 Responsive layout for desktop & mobile
+
+🧩 Organized HTML & CSS structure
+
+⚡ Lightweight and fast-loading
+
+🚀 Tech Stack
+
+HTML5
+
+CSS3
+
+Design Source: Figma
